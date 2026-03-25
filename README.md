@@ -19,7 +19,7 @@ This project redistributes GP practice-level prescribing data to neighbourhood l
   - Time period: 2021–2025
   - Geography: Sub-ICB (Leeds)  
     
-    Data were downloaded as a CSV file and processed in R.
+ Data were downloaded as a CSV file and processed in R.
 
   ### Downloading patients registered at a GP practice
 
