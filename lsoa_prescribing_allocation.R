@@ -4,10 +4,7 @@ install.packages('dplyr')
 #load packages
 library(dplyr)
 
-#set working directory 
-setwd("/Users/rachel/Desktop/openPrescribingTut")
-
-#load prescribing data downloaded from OpenPrescribing for: NHS West Yorkshire Integrated Care Board – Leeds
+#load prescribing data downloaded from OpenPrescribing
 prescribing <- read.csv("items for antidepressant drugs per.csv")
 #load GP practice data: 
 #https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice/january-2026
