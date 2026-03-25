@@ -13,25 +13,27 @@ This project redistributes GP practice-level prescribing data to neighbourhood l
 
   ### Extracting prescribing data
 
-Prescribing data were obtained using the OpenPrescribing search tool:
+    Prescribing data were obtained using the OpenPrescribing search tool:
+    
+    https://openprescribing.net/analyse/
+    
+    - Data extracted at GP practice level  
+    - Measure: item counts  
+    - Time period: 2021–2025  
+    - Geography: Sub-ICB (Leeds)  
+    
+    Data were downloaded as a CSV file and processed in R.
 
-https://openprescribing.net/analyse/
+  ### Downloading patients registered at a GP practice
 
-- Data extracted at GP practice level  
-- Measure: item counts  
-- Time period: 2021–2025  
-- Geography: Sub-ICB (Leeds)  
-
-Data were downloaded as a CSV file and processed in R.
-
-* GP practice – LSOA patient registration data (patient counts by LSOA):
-  https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice
-
-  Dataset used:
-  *gp-reg-pat-prac-lsoa-male-female-Jan-26.zip*
-
-  Direct download:
-  https://files.digital.nhs.uk/5E/95A783/gp-reg-pat-prac-lsoa-male-female-Jan-26.zip
+  * GP practice – LSOA patient registration data (patient counts by LSOA):
+    https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice
+  
+    Dataset used:
+    *gp-reg-pat-prac-lsoa-male-female-Jan-26.zip*
+  
+    Direct download:
+    https://files.digital.nhs.uk/5E/95A783/gp-reg-pat-prac-lsoa-male-female-Jan-26.zip
 
 Data were accessed in January 2026.
 
