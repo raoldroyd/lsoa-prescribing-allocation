@@ -21,6 +21,7 @@ presc_mean <- prescribing %>%
     .groups = "drop"
   )
 
+# remove 'CLOSED' LSOAs
 lsoa_final <- gp_practice %>%
   filter(LSOA_CODE != "CLOSED") %>%
   
@@ -49,5 +50,5 @@ lsoa_final <- gp_practice %>%
   # calculate rate
   mutate(
     items_per_patient = total_items / population,
-    items_per_1000 = items_per_patient * 1000
+    items_per_1000    = items_per_patient * 1000
   )
