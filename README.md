@@ -10,7 +10,7 @@ This project redistributes GP practice-level prescribing data to neighbourhood l
 
   ### Extracting prescribing data
 
-    Prescribing data (practice-level prescribing, item counts) were obtained using the OpenPrescribing search tool:
+  Prescribing data (practice-level prescribing, item counts) were obtained using the OpenPrescribing search tool:
     
     https://openprescribing.net/analyse/
     
