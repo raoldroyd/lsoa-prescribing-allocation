@@ -12,12 +12,12 @@ This project redistributes GP practice-level prescribing data to neighbourhood l
 
   Prescribing data (practice-level prescribing, item counts) were obtained using the OpenPrescribing search tool:
     
-    https://openprescribing.net/analyse/
-    
-    - Data extracted at GP practice level  
-    - Measure: item counts  
-    - Time period: 2021–2025  
-    - Geography: Sub-ICB (Leeds)  
+  https://openprescribing.net/analyse/
+  
+  - Data extracted at GP practice level  
+  - Measure: item counts
+  - Time period: 2021–2025
+  - Geography: Sub-ICB (Leeds)  
     
     Data were downloaded as a CSV file and processed in R.
 
